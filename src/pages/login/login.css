@@ -1,0 +1,49 @@
+.login {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: flex-start;
+  /* background-image: url("./loginimage.jpeg"); */
+  background-image: url("./element5.jpg");
+  background-size: cover;
+  background-position: top;
+  padding: 0rem 2rem;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  backdrop-filter: blur(10px);
+  background: rgb(255 255 255 / 20%);
+  border: 2px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.lContainer h3 {
+  margin: 0px;
+  text-align: center;
+}
+.lInput {
+  height: 30px;
+  padding: 10px;
+  color: black;
+  border: 1.5px solid black;
+  /* background: white !important; */
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}

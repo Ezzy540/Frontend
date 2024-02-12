@@ -1,0 +1,59 @@
+.register {
+    height: 120dvh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("./element5.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding: 0rem 2rem;
+  }
+  
+  .rContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0.5rem 1rem;
+    backdrop-filter: blur(10px);
+    background: rgb(255 255 255 / 20%);
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .rContainer h3 {
+    margin: 0px;
+    text-align: center;
+  }
+  .rInput {
+    /* background: white !important; */
+    border: 1.5px solid black;
+    height: 30px;
+    padding: 10px;
+    color: black;
+  }
+  .rInputsection {
+    width: 100%;
+    border-radius: 0.5rem;
+    background: transparent;
+    /* border: 2px solid var(--color-primary-variant); */
+    border: 1.5px solid black;
+    resize: none;
+    color: var(--color-white);
+    height: 40px;
+    color: rgb(90, 90, 90);
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .rButton:disabled {
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
+  
